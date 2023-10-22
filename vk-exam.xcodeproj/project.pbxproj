@@ -9,13 +9,18 @@
 /* Begin PBXBuildFile section */
 		F49AE7F92AE29D1E001768DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49AE7F82AE29D1E001768DB /* AppDelegate.swift */; };
 		F49AE7FB2AE29D1E001768DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49AE7FA2AE29D1E001768DB /* SceneDelegate.swift */; };
-		F49AE7FD2AE29D1E001768DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49AE7FC2AE29D1E001768DB /* ViewController.swift */; };
 		F49AE8002AE29D1E001768DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F49AE7FE2AE29D1E001768DB /* Main.storyboard */; };
 		F49AE8022AE29D1F001768DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F49AE8012AE29D1F001768DB /* Assets.xcassets */; };
 		F49AE8052AE29D1F001768DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F49AE8032AE29D1F001768DB /* LaunchScreen.storyboard */; };
 		F49AE8102AE29D1F001768DB /* vk_examTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49AE80F2AE29D1F001768DB /* vk_examTests.swift */; };
 		F49AE81A2AE29D1F001768DB /* vk_examUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49AE8192AE29D1F001768DB /* vk_examUITests.swift */; };
 		F49AE81C2AE29D1F001768DB /* vk_examUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49AE81B2AE29D1F001768DB /* vk_examUITestsLaunchTests.swift */; };
+		F49AE8292AE2A2EC001768DB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49AE8282AE2A2EC001768DB /* MainViewController.swift */; };
+		F49AE82C2AE2A314001768DB /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = F49AE82B2AE2A314001768DB /* SnapKit */; };
+		F49AE82E2AE2A346001768DB /* GifCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49AE82D2AE2A346001768DB /* GifCollectionCell.swift */; };
+		F49AE8302AE2A376001768DB /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49AE82F2AE2A376001768DB /* MainViewModel.swift */; };
+		F49AE8322AE2A498001768DB /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49AE8312AE2A498001768DB /* NetworkManager.swift */; };
+		F49AE8392AE5B255001768DB /* SwiftyGif in Frameworks */ = {isa = PBXBuildFile; productRef = F49AE8382AE5B255001768DB /* SwiftyGif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +44,6 @@
 		F49AE7F52AE29D1E001768DB /* vk-exam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "vk-exam.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F49AE7F82AE29D1E001768DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F49AE7FA2AE29D1E001768DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F49AE7FC2AE29D1E001768DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F49AE7FF2AE29D1E001768DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F49AE8012AE29D1F001768DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F49AE8042AE29D1F001768DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +53,10 @@
 		F49AE8152AE29D1F001768DB /* vk-examUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "vk-examUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F49AE8192AE29D1F001768DB /* vk_examUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vk_examUITests.swift; sourceTree = "<group>"; };
 		F49AE81B2AE29D1F001768DB /* vk_examUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vk_examUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F49AE8282AE2A2EC001768DB /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		F49AE82D2AE2A346001768DB /* GifCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifCollectionCell.swift; sourceTree = "<group>"; };
+		F49AE82F2AE2A376001768DB /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		F49AE8312AE2A498001768DB /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F49AE82C2AE2A314001768DB /* SnapKit in Frameworks */,
+				F49AE8392AE5B255001768DB /* SwiftyGif in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,11 +111,14 @@
 			children = (
 				F49AE7F82AE29D1E001768DB /* AppDelegate.swift */,
 				F49AE7FA2AE29D1E001768DB /* SceneDelegate.swift */,
-				F49AE7FC2AE29D1E001768DB /* ViewController.swift */,
 				F49AE7FE2AE29D1E001768DB /* Main.storyboard */,
 				F49AE8012AE29D1F001768DB /* Assets.xcassets */,
 				F49AE8032AE29D1F001768DB /* LaunchScreen.storyboard */,
 				F49AE8062AE29D1F001768DB /* Info.plist */,
+				F49AE8282AE2A2EC001768DB /* MainViewController.swift */,
+				F49AE82D2AE2A346001768DB /* GifCollectionCell.swift */,
+				F49AE82F2AE2A376001768DB /* MainViewModel.swift */,
+				F49AE8312AE2A498001768DB /* NetworkManager.swift */,
 			);
 			path = "vk-exam";
 			sourceTree = "<group>";
@@ -143,6 +156,10 @@
 			dependencies = (
 			);
 			name = "vk-exam";
+			packageProductDependencies = (
+				F49AE82B2AE2A314001768DB /* SnapKit */,
+				F49AE8382AE5B255001768DB /* SwiftyGif */,
+			);
 			productName = "vk-exam";
 			productReference = F49AE7F52AE29D1E001768DB /* vk-exam.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +232,10 @@
 				Base,
 			);
 			mainGroup = F49AE7EC2AE29D1E001768DB;
+			packageReferences = (
+				F49AE82A2AE2A314001768DB /* XCRemoteSwiftPackageReference "SnapKit" */,
+				F49AE8372AE5B18B001768DB /* XCRemoteSwiftPackageReference "SwiftyGif" */,
+			);
 			productRefGroup = F49AE7F62AE29D1E001768DB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,9 +279,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F49AE7FD2AE29D1E001768DB /* ViewController.swift in Sources */,
 				F49AE7F92AE29D1E001768DB /* AppDelegate.swift in Sources */,
 				F49AE7FB2AE29D1E001768DB /* SceneDelegate.swift in Sources */,
+				F49AE8322AE2A498001768DB /* NetworkManager.swift in Sources */,
+				F49AE8292AE2A2EC001768DB /* MainViewController.swift in Sources */,
+				F49AE82E2AE2A346001768DB /* GifCollectionCell.swift in Sources */,
+				F49AE8302AE2A376001768DB /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -607,6 +631,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F49AE82A2AE2A314001768DB /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit?ysclid=lm6l208uyy821271362";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.0;
+			};
+		};
+		F49AE8372AE5B18B001768DB /* XCRemoteSwiftPackageReference "SwiftyGif" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kirualex/SwiftyGif.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F49AE82B2AE2A314001768DB /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F49AE82A2AE2A314001768DB /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		F49AE8382AE5B255001768DB /* SwiftyGif */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F49AE8372AE5B18B001768DB /* XCRemoteSwiftPackageReference "SwiftyGif" */;
+			productName = SwiftyGif;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F49AE7ED2AE29D1E001768DB /* Project object */;
 }
